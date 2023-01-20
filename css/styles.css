@@ -134,46 +134,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-}
-
-@media (min-width: 1000px) {
-  .picture {
-    object-fit: cover;
-    height: 100%;
-  }
-
-  .container {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .image-container {
-    width: 50%;
-    border-top-left-radius: 0;
-  }
-
-  .text {
-    width: 50%;
-    text-align: left;
-    padding: 3rem 3rem 3rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-
-    margin-bottom: 1.5rem;
-  }
-
-  .description {
-    font-size: 1rem;
-    margin-bottom: 4rem;
-  }
-
-  .stats {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    font-weight: 700;
   }
 }
